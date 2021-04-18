@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-# npm run build
+npm run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -52,4 +52,4 @@ cd -
 # # git push -f $codingUrl master # 推送到coding
 
 # cd -
-# rm -rf docs/.vuepress/dist
+# rm -rf docs/.vuepress/dists
