@@ -16,7 +16,7 @@ cd docs/.vuepress/dist
 # git pull https://github.com/ajn404/Society-Page.git main 
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/ajn404/Society-Page.git main:gh-pages
+git push -f https://github.com/ajn404/Society-Page.git master:gh-pages
 
 cd -
 # deploy to github pages
